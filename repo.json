@@ -1,0 +1,31 @@
+{
+  "name": "FilmizleTV CloudStream Plugin",
+  "description": "CloudStream plugin configuration for FilmizleTV content provider",
+  "version": "1.0.0",
+  "author": "sakarsakir989-cloud",
+  "timestamp": "2025-12-15T23:40:50Z",
+  "plugin": {
+    "name": "FilmizleTV",
+    "type": "CloudStream",
+    "language": "tr",
+    "mainUrl": "https://filmizle.tv",
+    "iconUrl": "https://filmizle.tv/favicon.ico",
+    "isActive": true
+  },
+  "features": [
+    "movies",
+    "series",
+    "search",
+    "streaming"
+  ],
+  "cloudstream": {
+    "apiVersion": "3",
+    "sourceClass": "FilmizleTVProvider",
+    "sourceUrl": "https://raw.githubusercontent.com/sakarsakir989-cloud/titan4k/main/FilmizleTV.kt"
+  },
+  "repository": {
+    "owner": "sakarsakir989-cloud",
+    "name": "titan4k",
+    "url": "https://github.com/sakarsakir989-cloud/titan4k"
+  }
+}
